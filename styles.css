@@ -78,6 +78,27 @@ body {
 
 .nav-menu a {
     text-decoration: none;
+}
+
+.lang-switch {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.lang-switch a {
+    color: var(--text-secondary);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    transition: all 0.3s ease;
+}
+
+.lang-switch a:hover,
+.lang-switch a.active {
+    color: var(--primary-color);
+    background: rgba(99, 102, 241, 0.1);
+}
+
+.nav-menu > li > a:not(.lang-switch a) {
     color: var(--text-primary);
     font-weight: 500;
     transition: color 0.3s ease;

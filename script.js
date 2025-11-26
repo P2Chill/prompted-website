@@ -43,7 +43,7 @@ contactForm.addEventListener('submit', function(e) {
     // Create mailto link with form data
     const subject = encodeURIComponent(`New Project Inquiry - ${service}`);
     const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nService: ${service}\n\nMessage:\n${message}`);
-    const mailtoLink = `mailto:pieter.talboom@gmail.com?subject=${subject}&body=${body}`;
+    const mailtoLink = `mailto:contact@prompted.sbs?subject=${subject}&body=${body}`;
 
     // Open mail client
     window.location.href = mailtoLink;
