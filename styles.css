@@ -58,6 +58,7 @@ body {
     flex-direction: column-reverse;
     align-items: center;
     gap: 0.5rem;
+    position: relative;
 }
 
 .nav-brand .logo {
@@ -65,6 +66,9 @@ body {
     height: 80px;
     border-radius: 50%;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 100%;
+    margin-top: 0.5rem;
 }
 
 .nav-brand h1 {
