@@ -6,29 +6,10 @@
     </linearGradient>
   </defs>
 
-  <!-- Large chip body -->
-  <rect x="14" y="14" width="36" height="36" rx="4" fill="url(#grad)"/>
+  <!-- Full square background -->
+  <rect x="0" y="0" width="64" height="64" rx="8" fill="url(#grad)"/>
 
-  <!-- Big chip pins (left) -->
-  <rect x="6" y="22" width="8" height="6" fill="url(#grad)"/>
-  <rect x="6" y="36" width="8" height="6" fill="url(#grad)"/>
-
-  <!-- Big chip pins (right) -->
-  <rect x="50" y="22" width="8" height="6" fill="url(#grad)"/>
-  <rect x="50" y="36" width="8" height="6" fill="url(#grad)"/>
-
-  <!-- Big chip pins (top) -->
-  <rect x="22" y="6" width="6" height="8" fill="url(#grad)"/>
-  <rect x="36" y="6" width="6" height="8" fill="url(#grad)"/>
-
-  <!-- Big chip pins (bottom) -->
-  <rect x="22" y="50" width="6" height="8" fill="url(#grad)"/>
-  <rect x="36" y="50" width="6" height="8" fill="url(#grad)"/>
-
-  <!-- Simple bold circuit pattern inside -->
-  <circle cx="32" cy="32" r="6" fill="#fff"/>
-  <rect x="28" y="24" width="8" height="3" fill="#fff"/>
-  <rect x="28" y="37" width="8" height="3" fill="#fff"/>
-  <rect x="24" y="28" width="3" height="8" fill="#fff"/>
-  <rect x="37" y="28" width="3" height="8" fill="#fff"/>
+  <!-- Bold "P" for Prompted -->
+  <path d="M 20 16 L 20 48 L 24 48 L 24 34 L 36 34 C 42 34 46 30 46 25 C 46 20 42 16 36 16 Z M 24 20 L 36 20 C 40 20 42 22 42 25 C 42 28 40 30 36 30 L 24 30 Z"
+        fill="#fff"/>
 </svg>
