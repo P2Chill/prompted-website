@@ -72,6 +72,6 @@
     <circle cx="282" cy="305" r="4"/>
   </g>
 
-  <!-- Large "P" in center -->
-  <text x="256" y="340" font-family="Arial, sans-serif" font-size="200" font-weight="bold" fill="white" text-anchor="middle">P</text>
+  <!-- Large "P" in center - extra bold and bigger for visibility -->
+  <text x="256" y="360" font-family="Arial, sans-serif" font-size="280" font-weight="900" fill="white" text-anchor="middle" stroke="white" stroke-width="4">P</text>
 </svg>
