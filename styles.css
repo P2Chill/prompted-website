@@ -962,6 +962,12 @@ html {
     flex: 1;
 }
 
+.demo-disclaimer {
+    padding-top: 1rem;
+    margin-top: 1rem !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
 .demo-link {
     color: var(--accent-purple);
     font-weight: 500;
