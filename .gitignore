@@ -1,0 +1,22 @@
+# Context and progress files (internal documentation)
+*_context.md
+*_progress.md
+*_progress_archive*.md
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+.tmp/
